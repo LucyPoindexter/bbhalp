@@ -14,6 +14,7 @@ public class LucyMainClass {
             System.out.print("[Specify Index!]");
             Scanner keyboard = new Scanner(System.in);
             String input = keyboard.nextLine();
+            writeline("Input: " + input);
             if (input.toLowerCase().equals("exit")) {
                 writeline("exiting! owo");
                 break;
